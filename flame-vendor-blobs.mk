@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES :=
 
 # All the blobs
 PRODUCT_COPY_FILES += \
+vendor/t2m/flame/proprietary//libalsa-intf.so:system/lib/libalsa-intf.so \
 vendor/t2m/flame/proprietary//libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 vendor/t2m/flame/proprietary//libgps.utils.so:system/lib/libgps.utils.so \
 vendor/t2m/flame/proprietary//libloc_api_v02.so:system/lib/libloc_api_v02.so \
